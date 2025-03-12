@@ -6,10 +6,10 @@ function agregarAmigo(){
     let nombre = document.getElementById("amigo").value;
     document.getElementById("listaAmigos").innerText = nombre;
 
-    if (nombre.trim() !== "") { // Verifica que no esté vacío
-        nombres.push(nombre); // Agrega el nombre al arreglo
-        actualizarLista(); // Actualiza la lista en la pantalla
-        document.getElementById("amigo").value = ""; // Limpia el input
+    if (nombre.trim() !== "") { 
+        nombres.push(nombre); 
+        actualizarLista(); 
+        document.getElementById("amigo").value = ""; 
     } else {
         alert("Por favor, ingresa un nombre.");
         actualizarLista();
