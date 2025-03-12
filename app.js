@@ -18,12 +18,12 @@ function agregarAmigo(){
 
 function actualizarLista() {
     let lista = document.getElementById("listaAmigos");
-    lista.innerHTML = ""; // Limpia la lista antes de actualizar
+    lista.innerHTML = ""; 
 
     nombres.forEach(function(nombre) {
-        let li = document.createElement("li"); // Crea un elemento <li>
-        li.innerText = nombre; // Asigna el texto
-        lista.appendChild(li); // Agrega <li> a la lista
+        let li = document.createElement("li");
+        li.innerText = nombre; 
+        lista.appendChild(li); 
     });
 }
 
@@ -33,8 +33,8 @@ function sortearAmigo() {
             return;
         }
 
-        let indiceAleatorio = Math.floor(Math.random() * nombres.length); // Número aleatorio entre 0 y nombres.length - 1
-        let nombreSeleccionado = nombres[indiceAleatorio]; // Obtiene el nombre del arreglo
+        let indiceAleatorio = Math.floor(Math.random() * nombres.length); 
+        let nombreSeleccionado = nombres[indiceAleatorio]; 
 
-        document.getElementById("resultado").innerText = nombreSeleccionado; // Muestra el nombre seleccionado
+        document.getElementById("resultado").innerText = nombreSeleccionado; 
 }
