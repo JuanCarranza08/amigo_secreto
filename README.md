@@ -6,9 +6,9 @@ Este proyecto permite al usuario agregar nombres a una lista y luego seleccionar
 ## 📂 Estructura del Proyecto  
 El proyecto consta de un solo archivo `index.html`, que contiene:  
 - **Un input** para ingresar nombres.  
-- **Un botón "AÑADIR"** para almacenarlos en un arreglo.  
+- **Un botón "Añadir"** para almacenarlos en un arreglo.  
 - **Una lista (`<ul>`)** que muestra los nombres ingresados.  
-- **Un botón "Seleccionar Nombre Aleatorio"** para elegir un nombre de la lista al azar.  
+- **Un botón "Sortear amigo secreto"** para elegir un nombre de la lista al azar.  
 - **Un `<p>`** donde se muestra el nombre seleccionado.  
 
 ## 🛠️ Tecnologías Usadas  
@@ -19,6 +19,6 @@ El proyecto consta de un solo archivo `index.html`, que contiene:
 
 1. Abre el archivo `index.html` en un navegador.  
 2. Escribe un nombre en el campo de texto.  
-3. Presiona el botón **"AÑADIR"** para almacenarlo.  
+3. Presiona el botón **"Añadir"** para almacenarlo.  
 4. Repite el proceso para añadir más nombres.  
-5. Haz clic en **"Seleccionar Nombre Aleatorio"** para que el sistema elija uno al azar.
+5. Haz clic en **"Sortear amigo secreto"** para que el sistema elija uno al azar.
